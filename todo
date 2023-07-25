@@ -1,0 +1,70 @@
+Frequently Asked Data Structures Questions
+Array:
+1. Kth Largest Element in an Array: Find the kth largest element in an unsorted array
+efficiently without sorting the entire array.
+2. Two Sum - Unique Pairs: Find all unique pairs of elements in an array whose sum is
+equal to a target value.
+3. Sliding Window Maximum: Find the maximum value in each window of a specified size
+as it slides through the array.
+4. Merge K Sorted Lists: Merge k sorted linked lists into a single sorted linked list.
+5. Largest Rectangle in Histogram: Find the area of the largest rectangle that can be
+formed within a histogram represented by an array of heights.
+6. Maximum Product of Two Elements in an Array: Find the maximum product of two
+distinct elements in the array.
+7. Rotate Array: Rotate an array to the right by k steps.
+8. Best Time to Buy and Sell Stocks: Find the maximum profit that can be obtained by
+buying and selling stocks.
+9. Product of Array Except Self: Compute the product of the elements in an array except for
+the current element.
+10. Find Missing Number: Find the missing number from an array containing distinct
+numbers from 0 to n.
+11. Subarray with Maximum Sum: Find the contiguous subarray with the largest sum in an
+array.
+LinkedList:
+1. In-order Successor in a Binary Search Tree: Find the in-order successor of a node in a
+binary search tree.
+2. Reverse Linked List: Reverse a singly linked list.
+3. Middle of the Linked List: Find the middle node of a linked list.
+4. Detect Loop in Linked List: Detect if a linked list contains a cycle and return the starting
+node of the cycle if present.
+5. Merge Two Sorted Linked Lists: Merge two sorted linked lists into a single sorted linked
+list.
+6. Delete Nth Node from End of List: Remove the n-th node from the end of a linked list and
+return the head.
+7. First Non-Repeating Character in a Stream: Find the first non-repeating character at
+each index in a character stream.
+Stack:
+1. Implement Stack using Queues: Implement a stack data structure using two queues.
+2. Valid Parentheses: Check if a string of parentheses is valid.
+3. Evaluate Reverse Polish Notation: Evaluate the value of an arithmetic expression in
+Reverse Polish Notation.
+4. Simplify Path: Simplify a Unix-style file path.
+Queue:
+1. Implement Queue using Stacks: Implement a queue data structure using two stacks.
+2. Design Circular Queue: Design a circular queue with enqueue, dequeue, and empty/full
+checks.
+3. First Non-Repeating Character in a Stream: Find the first non-repeating character at
+each index in a character stream.
+4. Implement Priority Queue using Heaps: Implement a priority queue data structure using
+heaps.
+Tree:
+1. Serialization and Deserialization of a Binary Tree: Serialize and deserialize a binary tree
+while preserving its structure.
+2. Binary Tree Level Order Traversal: Traverse a binary tree level by level from left to right.
+3. Path Sum: Determine if a root-to-leaf path in a binary tree sums up to a given value.
+4. Construct Binary Tree from Inorder and Postorder Traversal: Construct a binary tree
+given its inorder and postorder traversals.
+5. Count Complete Tree Nodes: Count the number of nodes in a complete binary tree.
+6. Lowest Common Ancestor of a Binary Search Tree: Find the lowest common ancestor of
+two nodes in a binary search tree.
+Strings:
+1. Longest Common Prefix - Strings: Find the longest common prefix among an array of
+strings.
+2. Find the Index of the First Occurrence in a String: Find the index of the first occurrence
+of a substring in a string.
+3. Isomorphic Strings: Determine if two strings are isomorphic.
+4. Length of Last Word in a String: Find the length of the last word in a string.
+5. Reverse Words in a String: Reverse the words in a string.
+6. Check if the String is Palindrome: Determine if a string is a palindrome.
+7. Word Search in a 2D Board: Check if a word exists in a 2D board of letters.
+8. Decode String: Decode an encoded string based on specific rules.

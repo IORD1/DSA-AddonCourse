@@ -1,0 +1,13 @@
+
+START
+
+get target from user
+
+targget pointer p-> to head(start)
+
+while p->next is not equal to NULL:
+    if target values is equal to p->data then:
+        return target found
+        2break the loop
+
+END

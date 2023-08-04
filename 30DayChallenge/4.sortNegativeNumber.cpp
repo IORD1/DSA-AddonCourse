@@ -3,24 +3,30 @@
 using namespace std;
 
 void negativeNumberAsside(vector<int> v){
-    int start = 0;
-    int end = v.size()-1;
-    while(end > start){
-        // cout<<": "<<end<<endl;
-        if(v[end] < 0 && v[start] >= 0){
-            // cout<<"swapping"<<v[end]<<"-"<<v[start]<<endl;
-            swap(v[end],v[start]);
-            end--;
+   int start = 0;
+    int end = start+1;
+    while(end <= v.size()-1)
+    {
+        if(v[start]<0 && v[end]<0)
+        {
             start++;
-        }else if(v[end] <0 && v[start] < 0){
-            end--;
-        }else if(v[end] >= 0 && v[start] < 0){
-            end--;
-            start++;
-        }else if(v[end] >= 0 && v[start] >= 0){
-            end--;
+            end++;
         }
-
+        if(v[start]>=0 && v[end]<0)
+        {
+            swap(v[start], v[end]);
+            start++;
+            end++;
+        }
+        if(v[start]>=0 && v[end]>=0)
+        {
+            end++;
+        }
+        if(v[start]<0 && v[end]>=0)
+        {
+            start++;
+            end++;
+        }
     }
     cout<<"------------"<<endl;
     for(auto& i: v){

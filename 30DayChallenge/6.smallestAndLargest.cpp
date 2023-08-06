@@ -1,21 +1,13 @@
-#include<iostream>
 #include<bits/stdc++.h>
 using namespace std;
 
 void findSAndL(vector<int> v){
-    int small = INT_MAX;
-    int large = INT_MIN;
+    int small = INT_MAX, large = INT_MIN;
     for(auto& i:v ){
-        if(i < small){
-            small = i;
-        }
-        if(i > large){
-            large = i;
-        }
+        if(i < small) small = i;
+        if(i > large) large = i;
     }
-
-    cout<<"---------------"<<endl;
-    cout<<"S : "<<small<<" | L : "<<large<<endl;
+    cout<<"---------------"<<endl<<"S : "<<small<<" | L : "<<large<<endl;
 }
 
 int main(){
@@ -31,6 +23,4 @@ int main(){
     findSAndL({9, 3, 8, 5, 6, 2, 1, 7, 4});
     findSAndL({-5, -10, -2, -20, -1, -15});
 
-
-    return 0;
 }

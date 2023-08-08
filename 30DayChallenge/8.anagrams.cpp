@@ -8,13 +8,10 @@ void isAnagram(string s1, string s2){
     }
 
     for(int j=0; j<s2.size(); j++){
-        int flag = 0;
-        for(auto& k: v2){
-            if(k == s2[j]){
-                flag = 1;
-                break;
-            }
-        }
+        int flag = 1;
+        auto it = v2.find(s2[j]);
+        if(it == v2.end()) flag = 0;
+
         if(!flag){
             cout<<"-----------"<<endl<<"Not a Anagram"<<endl;
             return;
